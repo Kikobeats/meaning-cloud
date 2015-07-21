@@ -2,7 +2,7 @@
 
 module.exports =
 
-  URI                  : 'api.meaningcloud.com'
+  URI                       : 'api.meaningcloud.com'
   ENDPOINTS:
     user_profiling          : '/userprofiling-2.0'
     text_clasification      : '/class-1.1'
