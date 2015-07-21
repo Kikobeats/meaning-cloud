@@ -1,0 +1,27 @@
+{
+  "name": "meaningcloud",
+  "description": "NodeJS Client for interact with Meaning Cloud",
+  "homepage": "https://github.com/Kikobeats/meaningcloud",
+  "version": "0.0.0",
+  "main": "./dist/meaningcloud.js",
+  "authors": [
+    {
+      "name": "Kiko Beats",
+      "email": "josefrancisco.verdu@gmail.com",
+      "homepage": "https://github.com/Kikobeats"
+    }
+  ],
+  "repository": "Kikobeats/meaningcloud",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/meaningcloud/issues"
+  },
+  "keywords": [],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
