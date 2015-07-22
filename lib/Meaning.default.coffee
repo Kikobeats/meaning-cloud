@@ -1,5 +1,9 @@
 'use strict'
 
+###*
+ * Default modules.
+ * Settings to use across the library when the user doesn't provide and overwrite.
+###
 module.exports =
 
   URI                       : 'api.meaningcloud.com'

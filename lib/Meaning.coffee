@@ -14,8 +14,15 @@ createRequest = (url, apiKey) ->
     , (err, httpResponse, body) ->
       cb err, body
 
+###*
+ * Main module.
+ *
+ * Expose the client to interact with the API.
+ * This module load load others submodules and you can provide params for overwrite
+ * specific submodules configuration.
+ * @type {[type]}
+###
 module.exports = class MeaningCloud
-
   constructor: (options) ->
     @credentials = new Credentials options
     @endpoints = new Endpoints options.endpoints
