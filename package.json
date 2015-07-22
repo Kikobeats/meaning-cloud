@@ -2,19 +2,24 @@
   "name": "meaning-cloud",
   "description": "NodeJS Client for interact with Meaning Cloud API.",
   "homepage": "https://github.com/Kikobeats/meaningcloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./index.js",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": "Kikobeats/meaningcloud",
   "bugs": {
     "url": "https://github.com/Kikobeats/meaningcloud/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "meaning-cloud",
+    "meaningcloud",
+    "textalytics"
+  ],
   "dependencies": {
+    "coffee-script": "~1.9.3",
     "request": "~2.60.0"
   },
   "devDependencies": {

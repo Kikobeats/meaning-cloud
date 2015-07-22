@@ -2,7 +2,7 @@
   "name": "meaningcloud",
   "description": "NodeJS Client for interact with Meaning Cloud",
   "homepage": "https://github.com/Kikobeats/meaningcloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/meaningcloud.js",
   "authors": [
     {
@@ -15,7 +15,11 @@
   "bugs": {
     "url": "https://github.com/Kikobeats/meaningcloud/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "meaning-cloud",
+    "meaningcloud",
+    "textalytics"
+  ],
   "ignore": [
     "**/.*",
     "bower_components",
