@@ -2,7 +2,7 @@
   "name": "meaning-cloud",
   "description": "NodeJS Client for interact with Meaning Cloud API.",
   "homepage": "https://github.com/Kikobeats/meaningcloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "coffee-script": "~1.9.3",
-    "got": "~4.1.1",
+    "got": "~4.1.1"
   },
   "devDependencies": {
     "browserify": "*",

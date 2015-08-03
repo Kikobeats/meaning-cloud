@@ -2,7 +2,7 @@
   "name": "meaningcloud",
   "description": "NodeJS Client for interact with Meaning Cloud",
   "homepage": "https://github.com/Kikobeats/meaningcloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/meaningcloud.js",
   "authors": [
     {
