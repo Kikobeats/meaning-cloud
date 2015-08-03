@@ -1,16 +1,16 @@
-# meaningcloud
+# meaning-cloud
 
 <h1 align="center">
   <br>
-  <img src="http://i.imgur.com/uVU2cmG.png" alt="meaningcloud">
+  <img src="http://i.imgur.com/uVU2cmG.png" alt="meaning-cloud">
   <br>
   <br>
 </h1>
 
-![Last version](https://img.shields.io/github/tag/Kikobeats/meaningcloud.svg?style=flat-square)
-[![Dependency status](http://img.shields.io/david/Kikobeats/meaningcloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaningcloud)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/meaningcloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaningcloud#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/meaningcloud.svg?style=flat-square)](https://www.npmjs.org/package/meaningcloud)
+![Last version](https://img.shields.io/github/tag/Kikobeats/meaning-cloud.svg?style=flat-square)
+[![Dependency status](http://img.shields.io/david/Kikobeats/meaning-cloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaning-cloud)
+[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/meaning-cloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaning-cloud#info=devDependencies)
+[![NPM Status](http://img.shields.io/npm/dm/meaning-cloud.svg?style=flat-square)](https://www.npmjs.org/package/meaning-cloud)
 [![Gratipay](https://img.shields.io/gratipay/Kikobeats.svg?style=flat-square)](https://gratipay.com/~Kikobeats/)
 
 > NodeJS Client for interact with Meaning Cloud API.
@@ -18,19 +18,19 @@
 ## Install
 
 ```bash
-npm install meaningcloud --save
+npm install meaning-cloud --save
 ```
 
 If you want to use in the browser (powered by [Browserify](http://browserify.org/)):
 
 ```bash
-bower install meaningcloud --save
+bower install meaning-cloud --save
 ```
 
 and later link in your HTML:
 
 ```html
-<script src="bower_components/meaningcloud/dist/meaningcloud.js"></script>
+<script src="bower_components/meaning-cloud/dist/meaning-cloud.js"></script>
 ```
 
 ## Usage
@@ -38,13 +38,13 @@ and later link in your HTML:
 First require the library:
 
 ```js
-var MeaningCloud = require('meaning-cloud');
+var meaning-cloud = require('meaning-cloud');
 ```
 
 Minimal configuration:
 
 ```js
-var meaning = new MeaningCloud({
+var meaning = new meaning-cloud({
   key: process.env.API_KEY // API Key. Required.
   secure: true             // HTTPS or HTTPS. Optional, true by default.
   uri: 'custom-uri'        // URI to create the API endpoints. Optional.
@@ -53,7 +53,7 @@ var meaning = new MeaningCloud({
 A [list of default endpoints and API versions](https://github.com/Kikobeats/meaning-cloud/blob/master/lib/Meaning.default.coffee) is provided. If you need a particular version or endpoint, specify it in the constructor using the endpoint keywords, for example:
 
 ```js
-var meaning = new MeaningCloud({
+var meaning = new meaning-cloud({
   key: process.env.API_KEY
   endpoints: {
     topics_extraction: '/topics-1.1'
