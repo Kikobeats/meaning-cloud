@@ -1,6 +1,6 @@
 'use strict'
 
-request            = require 'request'
+got                = require 'got'
 Endpoints          = require './Meaning.Endpoints'
 Credentials        = require './Meaning.Credentials'
 DEFAULT            = require './Meaning.default'
@@ -8,11 +8,9 @@ DEFAULT            = require './Meaning.default'
 createRequest = (url, apiKey) ->
   (params, cb) ->
     params.key = apiKey
-    request.post
-      url: url
-      formData: params
-    , (err, httpResponse, body) ->
-      cb err, body
+    got.post url,
+      body: params
+    , cb
 
 ###*
  * Main module.
