@@ -1,7 +1,18 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2015-08-05)
+
+
+* fixed naming
+ ([43e4409](https://github.com/kikobeats/meaningcloud/commit/43e4409))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2015-08-03)
 
 
+* 1.0.2 releases
+ ([c24e95d](https://github.com/kikobeats/meaningcloud/commit/c24e95d))
 * Update README.md
  ([15be17b](https://github.com/kikobeats/meaningcloud/commit/15be17b))
 * updated
