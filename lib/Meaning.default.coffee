@@ -9,7 +9,7 @@ module.exports =
   URI                       : 'api.meaningcloud.com'
   ENDPOINTS:
     user_profiling          : '/userprofiling-2.0'
-    text_clasification      : '/class-1.1'
+    text_classification     : '/class-1.1'
     topics_extraction       : '/topics-1.2'
     sentiment_analysis      : '/sentiment-2.0'
     language_identification : '/lang-1.1'

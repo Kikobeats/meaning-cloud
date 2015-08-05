@@ -15,7 +15,7 @@ meaning.user_profiling({
 
 // Text Classification
 
-// meaning.text_clasification({
+// meaning.text_classification({
 //   model: 'IAB_en',
 //   txt: 'Computer Science & Software Engineer at @Socialbro. Coding Passionate. Web is the platform. JavaScript, CoffeeScript, NodeJS & Open Source.'
 // }, console.log);
