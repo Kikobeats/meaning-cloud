@@ -61,6 +61,12 @@ var meaning = new MeaningCloud({
 });
 ```
 
+The library support standard NodeJS callback and Promise workflow as well.
+
+## Examples
+
+See [example.js](https://github.com/Kikobeats/meaning-cloud/blob/master/example.js)
+
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)

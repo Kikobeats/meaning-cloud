@@ -7,15 +7,22 @@ var meaning = new MeaningCloud({
 
 // User Profiling
 
+/// Callback mode
+
 meaning.user_profiling({
   mode: 'th',
   login_name: '@Kikobeats',
   lang: 'en'
-}, console.log);
+}, function(err, body, res) {
+  console.log(body);
+});
 
-// Text Classification
+/// Promise mode
 
-// meaning.text_classification({
-//   model: 'IAB_en',
-//   txt: 'Computer Science & Software Engineer at @Socialbro. Coding Passionate. Web is the platform. JavaScript, CoffeeScript, NodeJS & Open Source.'
-// }, console.log);
+// meaning.user_profiling({
+//   mode: 'th',
+//   login_name: '@Kikobeats',
+//   lang: 'en'
+// }).then(function(res) {
+//   console.log(res.body);
+// });

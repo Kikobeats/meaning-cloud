@@ -1,5 +1,6 @@
 'use strict'
 
+pkg                = require './../package.json'
 got                = require 'got'
 Endpoints          = require './Meaning.Endpoints'
 Credentials        = require './Meaning.Credentials'
@@ -8,9 +9,14 @@ DEFAULT            = require './Meaning.default'
 createRequest = (url, apiKey) ->
   (params, cb) ->
     params.key = apiKey
-    got.post url,
+
+    options =
       body: params
-    , cb
+      headers:
+        'user-agent': pkg.homepage
+
+    return got.post url, options, cb if cb
+    got.post url, options
 
 ###*
  * Main module.
