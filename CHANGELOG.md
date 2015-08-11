@@ -1,7 +1,18 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2015-08-11)
+
+
+* Added Promise support and little improvements
+ ([edb447f](https://github.com/kikobeats/meaningcloud/commit/edb447f))
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2015-08-05)
 
 
+* 1.0.3 releases
+ ([fee1d22](https://github.com/kikobeats/meaningcloud/commit/fee1d22))
 * fixed naming
  ([43e4409](https://github.com/kikobeats/meaningcloud/commit/43e4409))
 
