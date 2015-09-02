@@ -1,10 +1,10 @@
 'use strict'
 
-pkg                = require './../package.json'
-got                = require 'got'
-Endpoints          = require './Meaning.Endpoints'
-Credentials        = require './Meaning.Credentials'
-DEFAULT            = require './Meaning.default'
+got         = require 'got'
+pkg         = require './../package.json'
+DEFAULT     = require './Meaning.default'
+Endpoints   = require './Meaning.Endpoints'
+Credentials = require './Meaning.Credentials'
 
 createRequest = (url, apiKey) ->
   (params, cb) ->

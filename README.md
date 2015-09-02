@@ -11,7 +11,7 @@
 [![Dependency status](http://img.shields.io/david/Kikobeats/meaning-cloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaning-cloud)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/meaning-cloud.svg?style=flat-square)](https://david-dm.org/Kikobeats/meaning-cloud#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/meaning-cloud.svg?style=flat-square)](https://www.npmjs.org/package/meaning-cloud)
-[![Gratipay](https://img.shields.io/gratipay/Kikobeats.svg?style=flat-square)](https://gratipay.com/~Kikobeats/)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > NodeJS Client for interact with Meaning Cloud API.
 
