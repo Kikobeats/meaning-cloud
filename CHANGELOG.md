@@ -1,7 +1,16 @@
+<a name="1.1.3"></a>
+## 1.1.3 (2015-11-25)
+
+
+* little refactor ([332e5e7](https://github.com/kikobeats/meaningcloud/commit/332e5e7))
+
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2015-11-25)
 
 
+* 1.1.2 releases ([e9129c3](https://github.com/kikobeats/meaningcloud/commit/e9129c3))
 * little refactor ([fe30023](https://github.com/kikobeats/meaningcloud/commit/fe30023))
 
 
