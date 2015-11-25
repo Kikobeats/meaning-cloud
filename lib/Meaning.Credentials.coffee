@@ -16,7 +16,7 @@ module.exports = (options) ->
   uri         = existsDefault options.uri, DEFAULT.URI
   secure      = existsDefault options.secure, DEFAULT.SECURE
 
-  credentials.url = DEFAULT.SECURE_MODE[secure]
+  credentials.url = DEFAULT.SECURE_MODES[secure]
   credentials.url += "://#{uri}"
 
   credentials

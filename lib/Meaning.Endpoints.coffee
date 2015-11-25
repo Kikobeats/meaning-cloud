@@ -1,6 +1,5 @@
 'use strict'
 
-objectAssign = require 'object-assign'
 DEFAULT      = require './Meaning.default'
 
 ###*
@@ -9,4 +8,6 @@ DEFAULT      = require './Meaning.default'
  * and default configuration.
 ###
 module.exports = (options) ->
-  objectAssign DEFAULT.ENDPOINTS, options.endpoints
+  endpoints = DEFAULT.ENDPOINTS()
+  endpoints[endpoint] = path for endpoint, path of options.endpoints
+  endpoints
