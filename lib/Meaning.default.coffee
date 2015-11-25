@@ -7,6 +7,10 @@
 module.exports =
 
   URI                       : 'api.meaningcloud.com'
+  SECURE                    : true
+  SECURE_MODE:
+    true                    : 'https'
+    false                   : 'http'
   ENDPOINTS:
     user_profiling          : '/userprofiling-2.0'
     text_classification     : '/class-1.1'

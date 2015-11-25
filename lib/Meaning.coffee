@@ -26,9 +26,9 @@ createRequest = (url, apiKey) ->
  * specific submodules configuration.
  * @type {[type]}
 ###
-module.exports = (options) ->
+module.exports = (options = {}) ->
     credentials = Credentials options
-    endpoints   = Endpoints options.endpoints
+    endpoints   = Endpoints options
     methods     = {}
 
     for endpoint, path of endpoints

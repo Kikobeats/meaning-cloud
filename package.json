@@ -20,7 +20,9 @@
   ],
   "dependencies": {
     "coffee-script": "latest",
-    "got": "latest"
+    "existential-default": "latest",
+    "got": "latest",
+    "object-assign": "latest"
   },
   "devDependencies": {
     "browserify": "latest",

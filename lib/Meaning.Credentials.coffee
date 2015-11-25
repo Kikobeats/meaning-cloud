@@ -1,6 +1,7 @@
 'use strict'
 
-DEFAULT = require './Meaning.DEFAULT'
+DEFAULT       = require './Meaning.DEFAULT'
+existsDefault = require 'existential-default'
 
 ###*
  * Credentials module.
@@ -11,13 +12,11 @@ DEFAULT = require './Meaning.DEFAULT'
 module.exports = (options) ->
   throw Error 'You need to provide an API credentials' unless options.key
 
-  credentials =
-    key: options.key
+  credentials = key: options.key
+  uri         = existsDefault options.uri, DEFAULT.URI
+  secure      = existsDefault options.secure, DEFAULT.SECURE
 
-  secure = if options.secure? then options.secure else true
-  uri = if options.uri? then options.uri else DEFAULT.URI
-
-  credentials.url = if secure then 'https' else 'http'
+  credentials.url = DEFAULT.SECURE_MODE[secure]
   credentials.url += "://#{uri}"
 
   credentials

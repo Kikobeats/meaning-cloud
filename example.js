@@ -1,9 +1,14 @@
 'use strict';
 
 var MeaningCloud = require('./index.js');
-var meaning = MeaningCloud({
+
+var options = {
   key: process.env.API_KEY
-});
+};
+
+var meaning = MeaningCloud(options);
+
+console.log(meaning);
 
 // User Profiling
 
