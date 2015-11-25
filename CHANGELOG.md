@@ -1,7 +1,16 @@
+<a name="1.1.2"></a>
+## 1.1.2 (2015-11-25)
+
+
+* little refactor ([fe30023](https://github.com/kikobeats/meaningcloud/commit/fe30023))
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2015-11-25)
 
 
+* 1.1.1 releases ([09cf3d4](https://github.com/kikobeats/meaningcloud/commit/09cf3d4))
 * composition over inheritance ([46e7fc2](https://github.com/kikobeats/meaningcloud/commit/46e7fc2))
 * fixed typo ([e3c373c](https://github.com/kikobeats/meaningcloud/commit/e3c373c))
 * minimal changes ([510ec6b](https://github.com/kikobeats/meaningcloud/commit/510ec6b))
