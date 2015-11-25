@@ -1,6 +1,6 @@
 'use strict'
 
-DEFAULT      = require './Meaning.default'
+DEFAULT = require './Meaning.default'
 
 ###*
  * Endpoints module.
