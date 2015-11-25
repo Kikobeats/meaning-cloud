@@ -1,7 +1,16 @@
+<a name="1.1.4"></a>
+## 1.1.4 (2015-11-25)
+
+
+* deleted unnecessary dependency ([fa1af72](https://github.com/kikobeats/meaningcloud/commit/fa1af72))
+
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2015-11-25)
 
 
+* 1.1.3 releases ([202e7fd](https://github.com/kikobeats/meaningcloud/commit/202e7fd))
 * little refactor ([332e5e7](https://github.com/kikobeats/meaningcloud/commit/332e5e7))
 
 
