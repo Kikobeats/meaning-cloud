@@ -1,7 +1,7 @@
 'use strict';
 
 var MeaningCloud = require('./index.js');
-var meaning = new MeaningCloud({
+var meaning = MeaningCloud({
   key: process.env.API_KEY
 });
 
@@ -9,13 +9,13 @@ var meaning = new MeaningCloud({
 
 /// Callback mode
 
-meaning.user_profiling({
-  mode: 'th',
-  login_name: '@Kikobeats',
-  lang: 'en'
-}, function(err, body, res) {
-  console.log(body);
-});
+// meaning.user_profiling({
+//   mode: 'th',
+//   login_name: '@Kikobeats',
+//   lang: 'en'
+// }, function(err, body, res) {
+//   console.log(body);
+// });
 
 /// Promise mode
 

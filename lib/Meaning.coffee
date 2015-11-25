@@ -2,7 +2,7 @@
 
 got         = require 'got'
 pkg         = require './../package.json'
-DEFAULT     = require './Meaning.default'
+DEFAULT     = require './Meaning.DEFAULT'
 Endpoints   = require './Meaning.Endpoints'
 Credentials = require './Meaning.Credentials'
 
@@ -26,10 +26,12 @@ createRequest = (url, apiKey) ->
  * specific submodules configuration.
  * @type {[type]}
 ###
-module.exports = class MeaningCloud
-  constructor: (options) ->
-    @credentials = new Credentials options
-    @endpoints = new Endpoints options.endpoints
-    for endpoint in Object.keys DEFAULT.ENDPOINTS
-      @[endpoint] = createRequest @credentials.url + @endpoints[endpoint], @credentials.key
-    this
+module.exports = (options) ->
+    credentials = Credentials options
+    endpoints   = Endpoints options.endpoints
+    methods     = {}
+
+    for endpoint, path of endpoints
+      methods[endpoint] = createRequest credentials.url + path, credentials.key
+
+    methods

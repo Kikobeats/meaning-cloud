@@ -44,7 +44,7 @@ var MeaningCloud = require('meaning-cloud');
 Minimal configuration:
 
 ```js
-var meaning = new MeaningCloud({
+var meaning = MeaningCloud({
   key: process.env.API_KEY // API Key. Required.
   secure: true             // HTTPS or HTTPS. Optional, true by default.
   uri: 'custom-uri'        // URI to create the API endpoints. Optional.
@@ -53,7 +53,7 @@ var meaning = new MeaningCloud({
 A [list of default endpoints and API versions](https://github.com/Kikobeats/meaning-cloud/blob/master/lib/Meaning.default.coffee) is provided. If you need a particular version or endpoint, specify it in the constructor using the endpoint keywords, for example:
 
 ```js
-var meaning = new MeaningCloud({
+var meaning = MeaningCloud({
   key: process.env.API_KEY
   endpoints: {
     topics_extraction: '/topics-1.1'
