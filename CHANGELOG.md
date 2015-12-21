@@ -1,7 +1,16 @@
+<a name="1.1.5"></a>
+## 1.1.5 (2015-12-21)
+
+
+* Fix #1 ([da01f70](https://github.com/kikobeats/meaningcloud/commit/da01f70)), closes [#1](https://github.com/kikobeats/meaningcloud/issues/1)
+
+
+
 <a name="1.1.4"></a>
 ## 1.1.4 (2015-11-25)
 
 
+* 1.1.4 releases ([543d967](https://github.com/kikobeats/meaningcloud/commit/543d967))
 * deleted unnecessary dependency ([fa1af72](https://github.com/kikobeats/meaningcloud/commit/fa1af72))
 
 
