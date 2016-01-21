@@ -1,7 +1,16 @@
+<a name="1.1.6"></a>
+## 1.1.6 (2016-01-21)
+
+
+* block dependencies ([ef12f43](https://github.com/kikobeats/meaningcloud/commit/ef12f43)), closes [#3](https://github.com/kikobeats/meaningcloud/issues/3)
+
+
+
 <a name="1.1.5"></a>
 ## 1.1.5 (2015-12-21)
 
 
+* 1.1.5 releases ([48c0b3c](https://github.com/kikobeats/meaningcloud/commit/48c0b3c))
 * Fix #1 ([da01f70](https://github.com/kikobeats/meaningcloud/commit/da01f70)), closes [#1](https://github.com/kikobeats/meaningcloud/issues/1)
 
 
@@ -81,18 +90,6 @@
 
 
 * 1.0.1 releases ([6d838a8](https://github.com/kikobeats/meaningcloud/commit/6d838a8))
-
-
-
-<a name="1.0.0"></a>
-# 1.0.0 (2015-07-22)
-
-
-* 1.0.0 releases ([4c62a81](https://github.com/kikobeats/meaningcloud/commit/4c62a81))
-* added documentation ([e2cd828](https://github.com/kikobeats/meaningcloud/commit/e2cd828))
-* first commit ([49877ec](https://github.com/kikobeats/meaningcloud/commit/49877ec))
-* updated ([8f0522a](https://github.com/kikobeats/meaningcloud/commit/8f0522a))
-* updated ([5714df6](https://github.com/kikobeats/meaningcloud/commit/5714df6))
 
 
 
