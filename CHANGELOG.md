@@ -1,7 +1,17 @@
+<a name="1.1.8"></a>
+## 1.1.8 (2016-01-25)
+
+
+* Merge pull request #7 from evansolomon/fix-import-casing ([0f1248f](https://github.com/kikobeats/meaningcloud/commit/0f1248f))
+* Use correct casing to import Meaning.default ([acfac46](https://github.com/kikobeats/meaningcloud/commit/acfac46))
+
+
+
 <a name="1.1.7"></a>
 ## 1.1.7 (2016-01-25)
 
 
+* 1.1.7 releases ([8be9fcb](https://github.com/kikobeats/meaningcloud/commit/8be9fcb))
 * lock got dependency ([42ec192](https://github.com/kikobeats/meaningcloud/commit/42ec192))
 
 
