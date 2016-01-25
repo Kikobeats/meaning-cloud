@@ -1,6 +1,6 @@
 'use strict'
 
-DEFAULT       = require './Meaning.DEFAULT'
+DEFAULT       = require './Meaning.default'
 existsDefault = require 'existential-default'
 
 ###*

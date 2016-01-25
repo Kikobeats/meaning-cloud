@@ -2,7 +2,7 @@
 
 got         = require 'got'
 pkg         = require './../package.json'
-DEFAULT     = require './Meaning.DEFAULT'
+DEFAULT     = require './Meaning.default'
 Endpoints   = require './Meaning.Endpoints'
 Credentials = require './Meaning.Credentials'
 
