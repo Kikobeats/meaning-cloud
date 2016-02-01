@@ -1,7 +1,20 @@
+<a name="1.1.9"></a>
+## 1.1.9 (2016-02-01)
+
+
+### chore
+
+* chore(package): update existential-default to version 1.1.1 ([c53ff2b](https://github.com/kikobeats/meaningcloud/commit/c53ff2b))
+
+* Merge pull request #8 from Kikobeats/greenkeeper-existential-default-1.1.1 ([51162f4](https://github.com/kikobeats/meaningcloud/commit/51162f4))
+
+
+
 <a name="1.1.8"></a>
 ## 1.1.8 (2016-01-25)
 
 
+* 1.1.8 releases ([63aeea4](https://github.com/kikobeats/meaningcloud/commit/63aeea4))
 * Merge pull request #7 from evansolomon/fix-import-casing ([0f1248f](https://github.com/kikobeats/meaningcloud/commit/0f1248f))
 * Use correct casing to import Meaning.default ([acfac46](https://github.com/kikobeats/meaningcloud/commit/acfac46))
 
