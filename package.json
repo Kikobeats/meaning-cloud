@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "coffee-script": "~1.10.0",
-    "existential-default": "~1.1.1",
+    "existential-default": "~1.1.2",
     "got": ">=5 <6"
   },
   "devDependencies": {
