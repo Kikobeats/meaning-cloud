@@ -1,3 +1,15 @@
+<a name="1.1.10"></a>
+## 1.1.10 (2016-02-16)
+
+
+### chore
+
+* chore(package): update existential-default to version 1.1.2 ([4530695](https://github.com/kikobeats/meaningcloud/commit/4530695))
+
+* Merge pull request #9 from Kikobeats/greenkeeper-existential-default-1.1.2 ([24a7fb4](https://github.com/kikobeats/meaningcloud/commit/24a7fb4))
+
+
+
 <a name="1.1.9"></a>
 ## 1.1.9 (2016-02-01)
 
@@ -6,6 +18,7 @@
 
 * chore(package): update existential-default to version 1.1.1 ([c53ff2b](https://github.com/kikobeats/meaningcloud/commit/c53ff2b))
 
+* 1.1.9 releases ([f001e70](https://github.com/kikobeats/meaningcloud/commit/f001e70))
 * Merge pull request #8 from Kikobeats/greenkeeper-existential-default-1.1.1 ([51162f4](https://github.com/kikobeats/meaningcloud/commit/51162f4))
 
 
