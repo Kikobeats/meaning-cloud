@@ -1,5 +1,7 @@
 # meaning-cloud
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/meaning-cloud.svg)](https://greenkeeper.io/)
+
 <h1 align="center">
   <br>
   <img src="http://i.imgur.com/uVU2cmG.png" alt="meaning-cloud">
